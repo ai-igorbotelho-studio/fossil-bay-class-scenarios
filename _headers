@@ -7,3 +7,5 @@
 
 /assets/*
   Cache-Control: public, max-age=604800
+/og-image.jpg
+  Cache-Control: public, max-age=86400

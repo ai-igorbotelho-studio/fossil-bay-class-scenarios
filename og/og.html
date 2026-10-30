@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en-NZ">
+<head>
+<meta charset="utf-8">
+<title>OG image source</title>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Raleway:wght@400;500;600;700&display=block" rel="stylesheet">
+<style>
+  /* 1200×630 share card. Rendered to /og-image.jpg by og/render.mjs. No money figures: the costs are still examples. */
+  :root { --navy-900:#002952; --navy-800:#013668; --blush-50:#fdf2f2; --blush-200:#fceae4; --white:#fff; }
+  html, body { margin:0; }
+  body { width:1200px; height:630px; overflow:hidden; background:var(--blush-50); font-family:Raleway, Arial, sans-serif; color:var(--navy-900); position:relative; }
+  .discs { position:absolute; right:-150px; bottom:-190px; width:560px; mix-blend-mode:multiply; -webkit-mask-image:radial-gradient(circle at 55% 55%, #000 45%, transparent 70%); mask-image:radial-gradient(circle at 55% 55%, #000 45%, transparent 70%); }
+  .logo { position:absolute; left:72px; top:64px; height:80px; }
+  .copy { position:absolute; left:72px; top:192px; width:540px; }
+  .eyebrow { font-weight:700; font-size:20px; letter-spacing:2.4px; text-transform:uppercase; margin:0 0 20px; }
+  h1 { font-weight:500; font-size:56px; line-height:1.12; margin:0; color:var(--navy-800); letter-spacing:-.3px; }
+  .sub { position:absolute; left:72px; bottom:64px; font-size:24px; font-weight:600; margin:0; }
+  .grid { position:absolute; left:650px; top:120px; display:grid; grid-template-columns:150px 175px 175px; grid-template-rows:62px 150px 150px; gap:3px; background:var(--navy-900); border:3px solid var(--navy-900); }
+  .grid > div { background:var(--white); display:flex; align-items:center; justify-content:center; text-align:center; }
+  .h { background:var(--blush-200) !important; font-family:"Fjalla One", "Arial Narrow", sans-serif; font-size:26px; letter-spacing:.4px; line-height:1.15; }
+  .c { flex-direction:column; gap:6px; font-family:"Fjalla One", "Arial Narrow", sans-serif; font-size:52px; }
+  .c small { font-family:Raleway, Arial, sans-serif; font-size:17px; font-weight:600; letter-spacing:.3px; }
+</style>
+</head>
+<body>
+  <img class="discs" src="../assets/watercolour-discs.jpg" alt="">
+  <img class="logo" src="../assets/fossil-bay-logo.png" alt="Fossil Bay school & kindergarten">
+  <div class="copy">
+    <p class="eyebrow">Waiheke Island · 2027 planning</p>
+    <h1>Four ways to run the classroom in 2027</h1>
+  </div>
+  <p class="sub">Five or four days · usual or extended holidays</p>
+  <div class="grid" aria-hidden="true">
+    <div class="h"></div><div class="h">5 days</div><div class="h">4 days</div>
+    <div class="h">Usual<br>holidays</div><div class="c">1<small>40 weeks</small></div><div class="c">2<small>40 weeks</small></div>
+    <div class="h">Extended<br>holidays</div><div class="c">3<small>36 weeks</small></div><div class="c">4<small>36 weeks</small></div>
+  </div>
+</body>
+</html>
